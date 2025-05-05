@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MaliNguo Laundry - Clean Clothes, Less Time, More Savings!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .highlight {
+      background-color: lightblue;
+      color: darkblue;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    button {
+      margin: 5px 0;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to MaliNguo Laundry!</h1>
+    <p id="tagline">CLEAN CLOTHES, LESS TIME, MORE SAVINGS!</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Why Choose Us?</h2>
+      <p id="reason-text">We offer fast and affordable laundry services in Upperhill, Nairobi.</p>
+      <button onclick="updateReason()">Update Message</button>
+    </section>
+
+    <section>
+      <h2>Today's Offers</h2>
+      <p id="offer-text">No offers currently available.</p>
+      <button onclick="highlightOffer()">Highlight Offer</button>
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+      <ul id="services-list">
+        <li>Washing</li>
+        <li>Drying</li>
+        <li>Folding</li>
+      </ul>
+      <button onclick="addService()">Add Service</button>
+      <button onclick="removeService()">Remove Service</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MaliNguo Laundry | Woodley & Upperhill, Nairobi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
